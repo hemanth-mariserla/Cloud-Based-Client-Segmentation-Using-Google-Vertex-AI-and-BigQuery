@@ -1,0 +1,11 @@
+CREATE OR REPLACE TABLE client_segmentation.preprocessed_data AS
+SELECT
+  BALANCE,
+  PURCHASES,
+  CREDIT_LIMIT
+FROM
+  `your-project-id.client_segmentation.CC_GENERAL`
+WHERE
+  BALANCE IS NOT NULL
+  AND PURCHASES IS NOT NULL
+  AND CREDIT_LIMIT IS NOT NULL;
