@@ -1,0 +1,1 @@
+# Cloud-Based-Client-Segmentation-Using-Google-Vertex-AI-and-BigQuery
